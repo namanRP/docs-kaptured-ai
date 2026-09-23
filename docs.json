@@ -1,0 +1,149 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Kaptured AI Help Center",
+  "description": "Guides, troubleshooting and answers for creating AI product photoshoots and videos with Kaptured AI.",
+  "colors": {
+    "primary": "#0FA58E",
+    "light": "#3CC4AC",
+    "dark": "#0B7F6D"
+  },
+  "favicon": "/favicon.png",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "/"
+  },
+  "fonts": {
+    "family": "Inter"
+  },
+  "appearance": {
+    "default": "system"
+  },
+  "search": {
+    "prompt": "Search the help center…"
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Open Kaptured AI",
+      "href": "https://app.kaptured.ai"
+    }
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Help Center",
+        "pages": [
+          "index"
+        ]
+      },
+      {
+        "group": "Getting Started",
+        "icon": "rocket",
+        "pages": [
+          {
+            "group": "Onboarding & First Steps",
+            "pages": [
+              "getting-started/onboarding-first-steps/onboarding-guide",
+              "getting-started/onboarding-first-steps/faq",
+              "getting-started/onboarding-first-steps/create-your-account",
+              "getting-started/onboarding-first-steps/password-reset"
+            ]
+          },
+          {
+            "group": "Platform Overview",
+            "pages": [
+              "getting-started/platform-overview/navigating-kaptured",
+              "getting-started/platform-overview/shop-settings"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Products",
+        "icon": "shirt",
+        "pages": [
+          "products/adding-products",
+          "products/product-photo-tips",
+          "products/bulk-upload",
+          "products/managing-products"
+        ]
+      },
+      {
+        "group": "AI Photo Studio",
+        "icon": "camera",
+        "pages": [
+          "ai-photo-studio/your-first-photoshoot",
+          "ai-photo-studio/choosing-a-model",
+          "ai-photo-studio/backgrounds-and-poses",
+          "ai-photo-studio/jewelry-templates",
+          "ai-photo-studio/accessories",
+          "ai-photo-studio/final-settings-and-image-engines",
+          "ai-photo-studio/group-shots",
+          "ai-photo-studio/generation-troubleshooting"
+        ]
+      },
+      {
+        "group": "Editing & Video",
+        "icon": "wand-magic-sparkles",
+        "pages": [
+          "editing-and-video/viewer-and-downloads",
+          "editing-and-video/editing-images",
+          "editing-and-video/magic-edit",
+          "editing-and-video/marketplace-crops",
+          "editing-and-video/convert-to-video"
+        ]
+      },
+      {
+        "group": "Library",
+        "icon": "images",
+        "pages": [
+          "library/library-overview",
+          "library/bulk-actions",
+          "library/auto-deletion"
+        ]
+      },
+      {
+        "group": "Customers & Virtual Try-On",
+        "icon": "user-group",
+        "pages": [
+          "customers/adding-customers",
+          "customers/styling-customers"
+        ]
+      },
+      {
+        "group": "Account & Security",
+        "icon": "shield-halved",
+        "pages": [
+          "account-and-security/two-factor-authentication",
+          "account-and-security/devices-and-sessions",
+          "account-and-security/bring-your-own-key"
+        ]
+      },
+      {
+        "group": "Integrations",
+        "icon": "plug",
+        "pages": [
+          "integrations/connect-claude",
+          "integrations/claude-tools-reference"
+        ]
+      },
+      {
+        "group": "Subscription & Billing",
+        "icon": "credit-card",
+        "pages": [
+          "subscription-and-billing/pricing-plans",
+          "subscription-and-billing/credits-explained",
+          "subscription-and-billing/subscription-management",
+          "subscription-and-billing/payment-troubleshooting"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "website": "https://www.kaptured.ai"
+    }
+  }
+}

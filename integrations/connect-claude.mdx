@@ -1,0 +1,67 @@
+---
+title: "Connect Claude to Kaptured AI"
+sidebarTitle: "Connect Claude"
+description: "Add the Kaptured AI connector to Claude so you can generate images and videos and browse your Library by chatting."
+---
+
+With the Kaptured AI connector, you can ask Claude to generate product images and videos, check your credits, and find things in your Library, all in plain language. Claude works with your account and your credits, exactly as if you were using the app.
+
+## What you can ask
+
+- "Generate a 9:16 image of a model in a white linen shirt on a beach at golden hour."
+- "Turn my latest image into a 6-second video of her turning toward the camera."
+- "How many credits do I have left?"
+- "Show me the videos I made last week for the silk kurta."
+
+## Connect
+
+1. In Claude, open **Settings → Connectors** and click **Add custom connector**.
+2. Name it **Kaptured AI** and paste this URL:
+
+   ```text
+   https://quycdewohkhmetiawogg.supabase.co/functions/v1/fashion-mcp/mcp
+   ```
+
+3. Click **Connect**. A Kaptured AI window opens.
+4. Sign in if asked (and enter your 2FA code if you use it).
+5. On **Authorize access**, check the account email and click **Approve**.
+
+The connector now shows as connected in Claude. You only need to approve once.
+
+<Note>
+  The consent screen says Claude "will be able to generate content and use credits on your behalf". Claude uses the same credits as the app, at the same prices.
+</Note>
+
+## Where Claude's work goes
+
+Everything Claude generates is saved to your account in a project called **Claude**, and shows up in your [Library](/library/library-overview) like anything else you make. The usual 30-day storage applies.
+
+## Tips
+
+- Ask Claude to check your credits before a big batch.
+- Videos cost much more than images. Ask for one video first and check you like the motion.
+- To animate an image you've already made, ask Claude to find it in your Library first.
+
+## Troubleshooting
+
+1. **"This authorization request is invalid or has expired."**
+   **✅ Solution:** Close the window and click **Connect** again in Claude.
+
+2. **"Missing authorization_id in the URL."**
+   **✅ Solution:** Start the connection from Claude again, rather than opening the link directly.
+
+3. **Claude says it isn't authorized, or tools stop working.**
+   **✅ Solution:** In Claude's connector settings, disconnect Kaptured AI and connect it again.
+
+4. **"You're out of credits."**
+   **✅ Solution:** Top up on **Billing & Plans**. See [How Credits Work](/subscription-and-billing/credits-explained).
+
+## Disconnect
+
+Remove or disconnect the Kaptured AI connector in Claude's connector settings.
+
+## Related articles
+
+- [Claude Connector: Tools Reference](/integrations/claude-tools-reference)
+- [How Credits Work](/subscription-and-billing/credits-explained)
+- [The Library](/library/library-overview)

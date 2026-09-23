@@ -1,0 +1,51 @@
+# Kaptured AI Help Center - structure
+
+- [Help Center home](index.mdx)
+- **Getting Started**
+  - **Onboarding & First Steps**
+    - [Kaptured AI Onboarding Guide](getting-started/onboarding-first-steps/onboarding-guide.mdx)
+    - [Frequently Asked Questions (FAQ)](getting-started/onboarding-first-steps/faq.mdx)
+    - [Creating Your Account and Signing In](getting-started/onboarding-first-steps/create-your-account.mdx)
+    - [Password Reset and Account Access](getting-started/onboarding-first-steps/password-reset.mdx)
+  - **Platform Overview**
+    - [Navigating Kaptured AI](getting-started/platform-overview/navigating-kaptured.mdx)
+    - [Shop Settings: Name, Logo, Category and Image Engines](getting-started/platform-overview/shop-settings.mdx)
+- **Products**
+  - [How to Add a Product](products/adding-products.mdx)
+  - [Product Photo Tips for Better AI Results](products/product-photo-tips.mdx)
+  - [Bulk Upload Products](products/bulk-upload.mdx)
+  - [Managing Your Products](products/managing-products.mdx)
+- **AI Photo Studio**
+  - [Your First Photoshoot in the AI Photo Studio](ai-photo-studio/your-first-photoshoot.mdx)
+  - [Choosing a Model: Library Faces, Your Own Faces and Face Styling](ai-photo-studio/choosing-a-model.mdx)
+  - [Backgrounds and Poses](ai-photo-studio/backgrounds-and-poses.mdx)
+  - [Jewelry Templates](ai-photo-studio/jewelry-templates.mdx)
+  - [Accessories](ai-photo-studio/accessories.mdx)
+  - [Final Settings and Image Engines](ai-photo-studio/final-settings-and-image-engines.mdx)
+  - [Group Shots: Multiple Products in One Photo](ai-photo-studio/group-shots.mdx)
+  - [Generation Troubleshooting: Errors and What They Mean](ai-photo-studio/generation-troubleshooting.mdx)
+- **Editing & Video**
+  - [The Image Viewer and Download Options](editing-and-video/viewer-and-downloads.mdx)
+  - [Editing Images with AI: Prompts, Poses, Camera Angles and De-AI Filters](editing-and-video/editing-images.mdx)
+  - [Magic Edit: Logos, Ad Designs and Saved Designs](editing-and-video/magic-edit.mdx)
+  - [Crop Images for Amazon, Etsy, Shopify and Ads](editing-and-video/marketplace-crops.mdx)
+  - [Convert an Image to Video](editing-and-video/convert-to-video.mdx)
+- **Library**
+  - [The Library: Every Image and Video You've Made](library/library-overview.mdx)
+  - [Bulk Download and Bulk Magic Edit](library/bulk-actions.mdx)
+  - [Why Are My Images Deleted After 30 Days?](library/auto-deletion.mdx)
+- **Customers & Virtual Try-On**
+  - [Adding and Managing Customers](customers/adding-customers.mdx)
+  - [Styling Customers with Virtual Try-On](customers/styling-customers.mdx)
+- **Account & Security**
+  - [Two-Factor Authentication](account-and-security/two-factor-authentication.mdx)
+  - [Devices, Sessions and Password](account-and-security/devices-and-sessions.mdx)
+  - [Bring Your Own Key (API Keys)](account-and-security/bring-your-own-key.mdx)
+- **Integrations**
+  - [Connect Claude to Kaptured AI](integrations/connect-claude.mdx)
+  - [Claude Connector: Tools Reference](integrations/claude-tools-reference.mdx)
+- **Subscription & Billing**
+  - [Pricing Plans: Studio, Brand and Scale](subscription-and-billing/pricing-plans.mdx)
+  - [How Credits Work](subscription-and-billing/credits-explained.mdx)
+  - [Managing Your Subscription: Upgrade, Downgrade, Cancel and Invoices](subscription-and-billing/subscription-management.mdx)
+  - [Payment Troubleshooting](subscription-and-billing/payment-troubleshooting.mdx)

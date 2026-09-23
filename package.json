@@ -1,0 +1,13 @@
+{
+  "name": "kaptured-ai-photoshoots-docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mintlify help center for Kaptured AI photoshoots",
+  "scripts": {
+    "dev": "mint dev",
+    "broken-links": "mint broken-links"
+  },
+  "devDependencies": {
+    "mint": "latest"
+  }
+}

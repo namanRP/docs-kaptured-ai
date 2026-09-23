@@ -1,0 +1,73 @@
+---
+title: "Claude Connector: Tools Reference"
+sidebarTitle: "Tools Reference"
+description: "Every tool the Kaptured AI connector gives Claude, what it does, and its options."
+---
+
+This is the full list of tools Claude can use once the [Kaptured AI connector](/integrations/connect-claude) is connected. You don't call these yourself: just ask Claude in plain language and it picks the right one. This page is useful for knowing what's possible and what the limits are.
+
+## Images and videos
+
+### `generate_image`
+
+Creates an image from a description and waits for it (usually 15 to 60 seconds). **Uses credits.**
+
+| Option | Values |
+| --- | --- |
+| `prompt` | What to create (required) |
+| `aspect_ratio` | 1:1, 9:16 (default), 16:9, 4:5, 5:4, 3:2, 2:3, 4:3, 3:4 or 21:9 |
+| `reference_image_url` | A public link to an image to base it on |
+
+### `generate_video`
+
+Turns an image into a video. Returns straight away with a job ID. **Uses credits.**
+
+| Option | Values |
+| --- | --- |
+| `prompt` | The motion to create (required) |
+| `start_image_url` | A public link to the start image, up to 15 MB (required) |
+| `aspect_ratio` | 9:16 (default) or 16:9 |
+| `duration_seconds` | 4 (default), 6 or 8 |
+| `model` | fast (default), quality, lite or omni (experimental) |
+| `generate_audio` | Add sound. On by default |
+
+### `get_video_status`
+
+Checks a video job and returns the video link when it's ready. Claude checks every 15 to 30 seconds; most videos take 1 to 4 minutes.
+
+## Account and Library
+
+### `get_credits`
+
+Your plan, credits remaining, renewal date and subscription status. Free.
+
+### `list_generations`
+
+The same list as the [Library](/library/library-overview). Free.
+
+| Option | Values |
+| --- | --- |
+| `limit` | 1 to 60 (default 20) |
+| `media_type` | all, image or video |
+| `sort` | newest or oldest |
+| `search` | Product name |
+| `filter_colors`, `filter_sizes`, `filter_categories` | Filter by your product colors, sizes and categories |
+
+## Video projects and templates
+
+These tools work with video editor projects and templates, where your account has them. They're all free.
+
+| Tool | What it does |
+| --- | --- |
+| `list_video_projects` | Lists your video projects, with search |
+| `get_video_project` | Opens a project by name, ID or link and returns its captions |
+| `create_video_project` | Creates a project (9:16, 16:9 or 1:1) with captions |
+| `update_video_project` | Renames a project, changes its shape, replaces captions, or restyles them (bold, italic, uppercase, font, size, placement, color) |
+| `get_video_template` | Finds a video template by name and returns its scenes and prompts |
+| `create_video_template` | Saves a new template with 1 to 50 scenes, each with an image prompt and a video prompt |
+
+## Related articles
+
+- [Connect Claude to Kaptured AI](/integrations/connect-claude)
+- [Convert an Image to Video](/editing-and-video/convert-to-video)
+- [How Credits Work](/subscription-and-billing/credits-explained)

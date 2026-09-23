@@ -1,0 +1,81 @@
+---
+title: "Generation Troubleshooting: Errors and What They Mean"
+sidebarTitle: "Generation Troubleshooting"
+description: "What each studio error means and how to fix it, from missing selections to content filters and timeouts."
+---
+
+Something didn't generate, or the result isn't what you expected? Find your situation below.
+
+Jump to:
+- [The generate button shows an error](#the-generate-button-shows-an-error)
+- [The generation failed](#the-generation-failed)
+- [It's taking a long time](#its-taking-a-long-time)
+- [The result doesn't look right](#the-result-doesnt-look-right)
+
+## The generate button shows an error
+
+These appear before anything is generated, and no credits are used. The page scrolls to the step that needs attention.
+
+| Message | Fix |
+| --- | --- |
+| **Please select an item** | Pick a product in step 1 |
+| **Please select or upload a model face** | Pick a face, or **Let AI Choose a Face** |
+| **Please select a background or a global style** | Pick a background, or **Let AI Choose a Background** |
+| **Please select at least one angle or a global pose style** | Pick a pose |
+| **Please describe your photoshoot** | Fill in the **Text** tab you switched to, or switch back to **Browse** |
+| **Please select at least one accessory** | Pick an accessory, or **Let AI Choose Accessories** |
+| **Template selection is required** | Jewelry: pick a template |
+| **At least one product image must remain selected.** | In the confirm dialog, tick at least one product photo |
+| **This image engine is not enabled for your shop.** | Allow it in [Shop Settings](/getting-started/platform-overview/shop-settings#image-engines) |
+| **Free plan only allows v1** / **Free plan allows only square (1:1) aspect ratio.** | Choose v1 and 1:1, or [upgrade](/subscription-and-billing/pricing-plans) |
+| **Remaining credits: X. Need Y more credits to continue.** | [Top up or upgrade](/subscription-and-billing/credits-explained), or pick a cheaper engine or resolution |
+
+## The generation failed
+
+1. **"...flagged by the content filter"**
+   Something in the combination of options was blocked by the safety filter.
+   **✅ Solution:** Change the pose, background or style and try again. If you wrote a text prompt, reword it.
+
+2. **"The image generator didn't return a result this time"**
+   A temporary glitch.
+   **✅ Solution:** Generate again. It almost always works on the second try.
+
+3. **"The request timed out"** or **"Failed to generate images. Please try again."**
+   The service was busy.
+   **✅ Solution:** Wait a minute and try again.
+
+4. **"You're out of credits to generate images."**
+   **✅ Solution:** Buy a top-up or upgrade on **Billing & Plans**. See [How Credits Work](/subscription-and-billing/credits-explained).
+
+5. **"Generation failed for {engine}"**
+   With several engines selected, one failed and the others worked.
+   **✅ Solution:** Generate again with just that engine.
+
+## It's taking a long time
+
+Most images are ready within a couple of minutes. If one takes longer you'll see "Images for {engine} are taking longer than expected. They will appear automatically once ready." You don't need to do anything: the image appears automatically when it's done.
+
+If the **Creating Magic...** card stays for more than 10 minutes, click **Refresh** above **Generations**.
+
+## The result doesn't look right
+
+| Problem | Try this |
+| --- | --- |
+| Product color or print is off | Use a photo in daylight with no filters. Add a **Front Close-up** |
+| Back of the garment is invented | Add a **Back** photo |
+| Jewelry is the wrong size | Add a **Size Reference** view |
+| The model's hair covers the product | Turn on **No Hair on Clothes** in Final Settings |
+| It looks too "AI" | Apply a **De-AI Filter** in the image viewer. See [Editing Images](/editing-and-video/editing-images) |
+| Small detail is wrong | Fix it with an edit prompt instead of regenerating |
+
+See [Product Photo Tips](/products/product-photo-tips) for more.
+
+## Still not resolved?
+
+Contact support with the product name, a screenshot of the error, and the time you generated. Use **Talk to sales** on **Billing & Plans** or email [aarushi@kaptured.ai](mailto:aarushi@kaptured.ai).
+
+## Related articles
+
+- [Final Settings and Image Engines](/ai-photo-studio/final-settings-and-image-engines)
+- [Product Photo Tips](/products/product-photo-tips)
+- [How Credits Work](/subscription-and-billing/credits-explained)
